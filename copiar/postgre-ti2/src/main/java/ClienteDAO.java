@@ -1,14 +1,20 @@
+/* **********************************************
+ * CLIENTE.DAO > conecta o banco de dados       *
+ * Manipula a classe Cliente com comandos SQL   *
+*************************************************/
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ClienteDAO {
-    // meu banco de dados
-    private static final String URL = "jdbc:postgresql://localhost:5432/postgre-ti2";
+    // postgresql
+    // o jdbc eh conectado pelo pom.xml
+    private static final String URL = "jdbc:postgresql://localhost:5432/postgreti2";
     private static final String USER = "ti2cc"; 
     private static final String PASSWORD = "ti@cc"; 
 
-    // conectar o banco de dados
+    // conectar postgresql
     public Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
