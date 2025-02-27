@@ -1,5 +1,7 @@
 # Atividade 02 - Integração PostgreSql e Eclipse
 
+### Aluna: Izabel Oliveira da Paz Chaves, Ciência da Computação - PUC MINAS (2025.1) / 2º período - TI2
+
 ## Problema
 Problema
 Esta tarefa consiste na criação de um programa em Java utilizando o ambiente de desenvolvimento Eclipse, sendo que os alunos devem:
